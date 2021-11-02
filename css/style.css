@@ -27,7 +27,7 @@
 
 }
 
-/*creo un contenitore row per oermettere di aggiungere gli elementi flottanti al suo interno*/
+/*creo un contenitore row per permettere di aggiungere gli elementi flottanti al suo interno*/
 .row::after{
     content: "";
     display: table;
@@ -39,8 +39,13 @@ nav{
     background-color: lightblue;
 }
 
-.item-1{
+.lf{
     float: left;
+}
+
+
+.item-1{
+    /* float: left; */
     height: 450px;
     width: 25%;
     padding: 20px 0;
@@ -48,14 +53,14 @@ nav{
 }
 
 .item-2{
-    float: left;
+    /* float: left; */
     height: 450px;
     width: 50%;
     padding: 20px 20px;
 }
 
 .item-3{
-    float: left;
+    /* float: left; */
     height: 450px;
     width: 25%;
     padding: 20px 0;
